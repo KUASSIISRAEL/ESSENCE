@@ -1,19 +1,19 @@
 <template>
     <div class="hold-transition register-page back-img">
+        <div class="register-logo margin-logo-1">
+            <a href=""
+            ><img
+                src="../../../public/assets/images/logo.png"
+                height="50"
+                width="100"
+                class="img-fluid"
+                alt=""
+            /></a>
+        </div>
+        <div class="container text-center col-md-8 mt-2 mb-2">
+            <h6 class="h5 text-white title_text">Payez et Vendez grace à note boutique personnalisée en ligne <br/> Inscrivez-vous et commencez votre personnalisation.</h6>
+        </div>
         <div class="register-box box">
-            <div class="register-logo">
-                <a href=""
-                ><img
-                    src="../../../public/assets/images/logo.png"
-                    height="50"
-                    width="100"
-                    class="img-fluid"
-                    alt=""
-                /></a>
-            </div>
-            <div class="mt-2 text-center mb-2">
-                <h6 class="h3 text-white">Welcome to the sal <br> sal sal sal sal sal</h6>
-            </div>
             <div class="card shadow-lg rounded">
                 <div class="card-header">
                     <h5 class="login-box-msg text-uppercase text-info">
@@ -266,6 +266,9 @@
 </script>
 
 <style scoped>
+    .margin-logo-1{
+        margin-top: 60px!important;
+    }
     .card {
         box-shadow: 5px 5px 5px 5px black;
         -moz-box-shadow: 5px 5px 5px 5px black;
@@ -304,6 +307,31 @@
     @media (min-width: 1200px) {
         .box {
             width: 450px !important;
+        }
+    }
+
+
+    @media (min-width: 576px) {
+        .box {
+            width: 400px !important;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .title_text {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .title_text {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .title_text {
+            font-size: 1.2rem;
         }
     }
 </style>

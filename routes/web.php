@@ -25,3 +25,6 @@ Route::get('/register', function () {
 Route::get('/recover', function () {
     return view('sessions.recoverpassword');
 });
+Route::get('/dashboard', function () {
+    return view('sessions.dashboard');
+});

@@ -72,6 +72,8 @@
         <script src="{{ asset('assets/dist/js/pages/dashboard.js') }}"></script>
         <!-- AdminLTE for demo purposes -->
         <script src="{{ asset('assets/dist/js/demo.js') }}"></script>
+        <!-- Select2 -->
+{{--        <script src="{{ asset('assets/plugins/select2/js/select2.full.min.js') }}"></script>--}}
         <script>
             $(function () {
                 //Initialize Select2 Elements

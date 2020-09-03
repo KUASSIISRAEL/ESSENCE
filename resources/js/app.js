@@ -26,6 +26,8 @@ Vue.component('login-component', require('./components/LoginComponent.vue').defa
 Vue.component('register-component', require('./components/RegisterComponent.vue').default);
 
 Vue.component('recoverpassword-component', require('./components/RecoverpasswordComponent.vue').default);
+
+Vue.component('dashboard-component', require('./components/DashboardComponent.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
